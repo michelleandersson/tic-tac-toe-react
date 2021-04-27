@@ -27,7 +27,7 @@ export function calculateWinner(suares) {
 //test array to see if it works
 const squares = [
     null, null, null,
-    'X', 'X', '0', 
+    'X', 'X', 'X', 
     null, null, null
 ]; 
 
