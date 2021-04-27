@@ -9,7 +9,6 @@ const style = {
     outline: 'none'
 };
 
-
 const Square = ({value, onClick}) => (
     <button style={style} onClick = {onClick}>
         {value}
