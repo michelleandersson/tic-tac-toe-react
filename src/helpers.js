@@ -1,4 +1,4 @@
-export function calculateWinner(suares) {
+export function calculateWinner(squares) {
     //all winning moves (lookup array)
     const lines = [
         [0, 1, 2],
@@ -10,6 +10,8 @@ export function calculateWinner(suares) {
         [0, 4, 8], 
         [2, 4, 6] 
     ]; 
+
+    
 
     //loop through the lookup array
     for (let i = 0; i < lines.length; i++) {
@@ -24,11 +26,11 @@ export function calculateWinner(suares) {
 }; 
 
 
-//test array to see if it works
-const squares = [
-    null, null, null,
-    'X', 'X', 'X', 
-    null, null, null
-]; 
+// test array to see if it works
+// let squares = [
+//     null, null, null,
+//     'X', 'X', '0', 
+//     null, null, null
+// ]; 
 
-console.log(calculateWinner(squares));
+// console.log(calculateWinner(squares));
